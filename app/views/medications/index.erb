@@ -1,0 +1,6 @@
+<ul>
+
+    <% @medications.each do |n| %>
+        <li><a href="/medications/<%= n.id %>"><%= n.title %></a></li>
+<% end %>
+</ul>

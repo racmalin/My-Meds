@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2021_02_09_195110) do
     t.string "name"
     t.string "form"
     t.string "brand"
+    t.text "description"
     t.integer "dose"
     t.integer "amount"
   end

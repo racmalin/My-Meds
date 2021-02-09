@@ -5,6 +5,7 @@ class CreateMedications < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :form
       t.string :brand
+      t.text :description
       t.integer :dose
       t.integer :amount
     end
