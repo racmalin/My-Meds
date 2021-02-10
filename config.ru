@@ -1,7 +1,8 @@
+require 'rack'
 require 'pry'
-require "./config/environment"
+require_relative './config/environment'
 
 require_all 'app'
 
 # Use MedicationController
-run ApplicationController
+run ApplicationController.new
